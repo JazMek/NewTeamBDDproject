@@ -18,16 +18,11 @@
     </modules>
     <dependencyManagement>
         <dependencies>
-            <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java8 -->
+            <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
             <dependency>
-                <groupId>io.cucumber</groupId>
-                <artifactId>cucumber-java8</artifactId>
-                <version>5.7.0</version>
-            </dependency>
-            <dependency>
-                <groupId>com.vimalselvam</groupId>
-                <artifactId>cucumber-extentsreport</artifactId>
-                <version>3.0.2</version>
+                <groupId>io.github.bonigarcia</groupId>
+                <artifactId>webdrivermanager</artifactId>
+                <version>3.8.1</version>
             </dependency>
             <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
             <dependency>
@@ -41,99 +36,36 @@
                 <artifactId>selenium-server</artifactId>
                 <version>3.141.59</version>
             </dependency>
-            <!-- https://mvnrepository.com/artifact/junit/junit -->
-            <dependency>
-                <groupId>junit</groupId>
-                <artifactId>junit</artifactId>
-                <version>4.13</version>
-            </dependency>
-            <!-- https://mvnrepository.com/artifact/org.hamcrest/hamcrest-core -->
-            <dependency>
-                <groupId>org.hamcrest</groupId>
-                <artifactId>hamcrest-core</artifactId>
-                <version>2.2</version>
-                <scope>test</scope>
-            </dependency>
-            <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
-            <dependency>
-                <groupId>io.cucumber</groupId>
-                <artifactId>cucumber-junit</artifactId>
-                <version>5.7.0</version>
-                <scope>test</scope>
-            </dependency>
-            <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
-            <dependency>
-                <groupId>io.cucumber</groupId>
-                <artifactId>cucumber-java</artifactId>
-                <version>5.7.0</version>
-            </dependency>
-            <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-core -->
-            <dependency>
-                <groupId>io.cucumber</groupId>
-                <artifactId>cucumber-core</artifactId>
-                <version>5.7.0</version>
-            </dependency>
-            <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-html -->
-            <dependency>
-                <groupId>io.cucumber</groupId>
-                <artifactId>cucumber-html</artifactId>
-                <version>0.2.7</version>
-            </dependency>
-            <!-- https://mvnrepository.com/artifact/net.sourceforge.cobertura/cobertura -->
-            <dependency>
-                <groupId>net.sourceforge.cobertura</groupId>
-                <artifactId>cobertura</artifactId>
-                <version>2.1.1</version>
-                <scope>test</scope>
-                <exclusions>
-                    <exclusion>
-                        <groupId>com.sun</groupId>
-                        <artifactId>tools</artifactId>
-                    </exclusion>
-                </exclusions>
-            </dependency>
-            <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-jvm-deps -->
-            <dependency>
-                <groupId>io.cucumber</groupId>
-                <artifactId>cucumber-jvm-deps</artifactId>
-                <version>1.0.6</version>
-                <scope>provided</scope>
-            </dependency>
-<!--            &lt;!&ndash; https://mvnrepository.com/artifact/net.masterthought/maven-cucumber-reporting &ndash;&gt;-->
-            <dependency>
-                <groupId>net.masterthought</groupId>
-                <artifactId>maven-cucumber-reporting</artifactId>
-                <version>3.8.0</version>
-            </dependency>
-            <!-- https://mvnrepository.com/artifact/io.cucumber/gherkin -->
-            <dependency>
-                <groupId>io.cucumber</groupId>
-                <artifactId>gherkin</artifactId>
-                <version>13.0.0</version>
-            </dependency>
-            <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
-            <dependency>
-                <groupId>io.github.bonigarcia</groupId>
-                <artifactId>webdrivermanager</artifactId>
-                <version>3.8.1</version>
-            </dependency>
             <!-- https://mvnrepository.com/artifact/org.testng/testng -->
             <dependency>
                 <groupId>org.testng</groupId>
                 <artifactId>testng</artifactId>
                 <version>7.1.0</version>
             </dependency>
-            <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
             <dependency>
                 <groupId>mysql</groupId>
                 <artifactId>mysql-connector-java</artifactId>
-                <version>8.0.20</version>
+                <version>8.0.17</version>
             </dependency>
+            <!--XLSX and XLS Reader-->
+            <!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+            <dependency>
+                <groupId>org.apache.poi</groupId>
+                <artifactId>poi</artifactId>
+                <version>3.17</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+            <dependency>
+                <groupId>org.apache.poi</groupId>
+                <artifactId>poi-ooxml</artifactId>
+                <version>3.17</version>
+            </dependency>
+            <!--Extent Report-->
             <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
             <dependency>
                 <groupId>com.aventstack</groupId>
                 <artifactId>extentreports</artifactId>
-                <version>4.1.5</version>
+                <version>4.0.9</version>
             </dependency>
             <!-- https://mvnrepository.com/artifact/com.relevantcodes/extentreports -->
             <dependency>
@@ -141,76 +73,85 @@
                 <artifactId>extentreports</artifactId>
                 <version>2.41.2</version>
             </dependency>
-            <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
             <dependency>
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-lang3</artifactId>
-                <version>3.10</version>
+                <version>3.0</version>
             </dependency>
-            <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
             <dependency>
                 <groupId>commons-io</groupId>
                 <artifactId>commons-io</artifactId>
-                <version>2.7</version>
+                <version>2.5</version>
             </dependency>
-            <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
-            <dependency>
-                <groupId>org.apache.poi</groupId>
-                <artifactId>poi-ooxml</artifactId>
-                <version>4.1.2</version>
-            </dependency>
-            <!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
-            <dependency>
-                <groupId>org.apache.poi</groupId>
-                <artifactId>poi</artifactId>
-                <version>4.1.2</version>
-            </dependency>
-            <!-- https://mvnrepository.com/artifact/org.hamcrest/hamcrest-all -->
-            <dependency>
-                <groupId>org.hamcrest</groupId>
-                <artifactId>hamcrest-all</artifactId>
-                <version>1.3</version>
-                <scope>test</scope>
-            </dependency>
-            <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-picocontainer -->
+            <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-core -->
             <dependency>
                 <groupId>io.cucumber</groupId>
-                <artifactId>cucumber-picocontainer</artifactId>
-                <version>4.8.0</version>
+                <artifactId>cucumber-core</artifactId>
+                <version>5.5.0</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+            <dependency>
+                <groupId>io.cucumber</groupId>
+                <artifactId>cucumber-java</artifactId>
+                <version>5.5.0</version>
             </dependency>
             <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
             <dependency>
                 <groupId>io.cucumber</groupId>
                 <artifactId>cucumber-testng</artifactId>
-                <version>4.8.0</version>
+                <version>5.5.0</version>
             </dependency>
-            <!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
+            <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
             <dependency>
-                <groupId>com.google.guava</groupId>
-                <artifactId>guava</artifactId>
-                <version>28.1-jre</version>
+                <groupId>io.cucumber</groupId>
+                <artifactId>cucumber-junit</artifactId>
+                <version>5.5.0</version>
             </dependency>
-            <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-log4j2 -->
+            <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-html -->
             <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-starter-log4j2</artifactId>
-                <version>2.2.5.RELEASE</version>
+                <groupId>io.cucumber</groupId>
+                <artifactId>cucumber-html</artifactId>
+                <version>0.2.7</version>
             </dependency>
-            <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-dependency-plugin -->
+            <!-- https://mvnrepository.com/artifact/io.cucumber/gherkin -->
             <dependency>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-dependency-plugin</artifactId>
+                <groupId>io.cucumber</groupId>
+                <artifactId>gherkin</artifactId>
+                <version>5.1.0</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-jvm-deps -->
+            <dependency>
+                <groupId>io.cucumber</groupId>
+                <artifactId>cucumber-jvm-deps</artifactId>
+                <version>1.0.6</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-picocontainer -->
+            <dependency>
+                <groupId>io.cucumber</groupId>
+                <artifactId>cucumber-picocontainer</artifactId>
+                <version>5.5.0</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/org.freemarker/freemarker -->
+            <dependency>
+                <groupId>org.freemarker</groupId>
+                <artifactId>freemarker</artifactId>
+                <version>2.3.28</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/com.vimalselvam/cucumber-extentsreport -->
+            <dependency>
+                <groupId>com.vimalselvam</groupId>
+                <artifactId>cucumber-extentsreport</artifactId>
                 <version>3.1.1</version>
             </dependency>
-<!--            <dependency>-->
-<!--                <groupId>org.apache.maven.plugins</groupId>-->
-<!--                <artifactId>maven-compiler-plugin</artifactId>-->
-<!--                <version>3.8.1</version>-->
-<!--                <type>maven-plugin</type>-->
-<!--            </dependency>-->
+            <!-- https://mvnrepository.com/artifact/junit/junit -->
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>4.13</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
-         <build>
+    <build>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -224,16 +165,17 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.0.0-M4</version>
+                <version>3.0.0-M3</version>
                 <configuration>
-                    <testFailureIgnore>true</testFailureIgnore>
+                    <suiteXmlFiles>
+                        <!--                        <suiteXmlFiles>target/test-classes/ESPNTestRunner.xml</suiteXmlFiles>-->
+                    </suiteXmlFiles>
                 </configuration>
             </plugin>
-            <!-- Reporting -->
             <plugin>
                 <groupId>net.masterthought</groupId>
                 <artifactId>maven-cucumber-reporting</artifactId>
-                <version>3.8.0</version>
+                <version>5.0.0</version>
                 <executions>
                     <execution>
                         <id>execution</id>
@@ -241,14 +183,21 @@
                         <goals>
                             <goal>generate</goal>
                         </goals>
-               <configuration>
-<!--                   <projectName>NewTeamBDDproject</projectName>-->
-<!--                   <outputDirectory>NewTeamBDDproject/MCT/target/cucumber-reports</outputDirectory>-->
-<!--                   <cucumberOutput>NewTeamBDDproject/MCT/target/cucumber-reports/cucumber.json</cucumberOutput>-->
-                   <projectName>MCT</projectName>
-                   <outputDirectory>target/cucumber-reports</outputDirectory>
-                   <cucumberOutput>target/cucumber-reports/cucumber.json</cucumberOutput>
-               </configuration>
+                        <configuration>
+                            <projectName>New Team BDD project</projectName>
+                            <outputDirectory>target/cucumber-reports/advanced-reports</outputDirectory>
+                            <buildNumber>1</buildNumber>
+                            <skip>false</skip>
+                            <inputDirectory>${project.build.directory}/cucumber-reports</inputDirectory>
+<!--                            <outputDirectory>${project.build.directory}</outputDirectory>-->
+<!--                            <inputDirectory>${project.build.directory}</inputDirectory>-->
+                            <jsonFiles>
+                                <param>**/*.json</param>
+                            </jsonFiles>
+                            <classificationDirectory>${project.build.directory}/cucumber-reports
+                            </classificationDirectory>
+                            <checkBuildResult>false</checkBuildResult>
+                        </configuration>
                     </execution>
                 </executions>
             </plugin>

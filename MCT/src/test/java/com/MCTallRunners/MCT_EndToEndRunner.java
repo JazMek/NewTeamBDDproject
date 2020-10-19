@@ -8,16 +8,15 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions (
         features = {"src/main/java/com/MCTallFeatures"},
-        glue ={"com.MCTstepDefenitions","com.MCTHooks"},
+//        glue ={"com.MCTstepDefenitions","com.MCTHooks"},
+        glue ={"com.MCTstepDefenitions"},
         plugin = {"pretty", "json:target/cucumber-reports/cucumber.json", "html:target/cucumber-reports"},
-//        strict = true,
-        monochrome = true,
+        strict = true,
+//        monochrome = true,
         dryRun = false
 // tags = " ( @Regression or @smokeTest ) and not @pending "
 // tags = {"@Regression or @smokeTest or "}
 // tags={"@Test1,@Test2"}
-
 )
-
-public class MCT_EndToEndRunner extends AbstractTestNGCucumberTests {
+public class MCT_EndToEndRunner {
 }
