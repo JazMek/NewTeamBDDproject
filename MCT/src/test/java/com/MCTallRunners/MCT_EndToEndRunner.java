@@ -8,8 +8,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions (
         features = {"src/main/java/com/MCTallFeatures"},
-//        glue ={"com.MCTstepDefenitions","com.MCTHooks"},
-        glue ={"com.MCTstepDefenitions"},
+        glue ={"com.MCTstepDefenitions","com.MCTHooks"},
         plugin = {"pretty", "json:target/cucumber-reports/cucumber.json", "html:target/cucumber-reports"},
         strict = true,
 //        monochrome = true,

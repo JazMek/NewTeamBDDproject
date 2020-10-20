@@ -10,19 +10,19 @@ import org.openqa.selenium.support.PageFactory;
 import java.io.IOException;
 
 public class MCTHook extends BDDWebAPI {
-//    public static MCT_HomePage mCT_HomePage;
-//    public static MCT_HomePageSD mCT_HomePageSD;
-//    public static void Init(){
-//        mCT_HomePage = PageFactory.initElements(driver, MCT_HomePage.class);
-//        mCT_HomePageSD = PageFactory.initElements(driver, MCT_HomePageSD.class);
-//    }
-//    @Before
-//    public void rampUp() throws IOException {
-//        setUp(false, "browserstack", "ox", "catalina", "chrome", "86", "https://demo.iscripts.com/multicart/demo/index.php");
-//        Init();
-//    }
-//    @After
-//    public void rampDown() {
-//        driver.quit(); }
-//
+    public static MCT_HomePage mCT_HomePage;
+    public static MCT_HomePageSD mCT_HomePageSD;
+    public static void Init(){
+        mCT_HomePage = PageFactory.initElements(driver, MCT_HomePage.class);
+        mCT_HomePageSD = PageFactory.initElements(driver, MCT_HomePageSD.class);
+    }
+    @Before
+    public void rampUp() throws IOException {
+        setUp(false, "browserstack", "ox", "catalina", "chrome", "86", "https://demo.iscripts.com/multicart/demo/index.php");
+        Init();
+    }
+    @After
+    public void rampDown() {
+        driver.quit(); }
+
 }
