@@ -1,6 +1,7 @@
 package common;
 
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.junit.After;
@@ -38,7 +39,7 @@ public class BDDWebAPI {
 
         @Before
         public  void openBrowser() throws IOException {
-            setUp(false,"browserstack","Windows","10","chrome","86","https://www.google.com/");
+            setUp(false,"browserstack","ox","catalina","chrome","85","https://www.google.com/");
 
         }
         public void setUp( boolean useCloudEnv,  String cloudEnvName,
@@ -64,7 +65,8 @@ public class BDDWebAPI {
 
             if (browserName.equalsIgnoreCase("chrome")) {
                 if (OS.equalsIgnoreCase("OS X")) {
-                    System.setProperty("webdriver.chrome.driver", "../Generic/BrowserDriver/mac/chromedriver");
+                    WebDriverManager.chromedriver().setup();
+                  //  System.setProperty("webdriver.chrome.driver", "../Generic/BrowserDriver/mac/chromedriver");
                 } else if (OS.equalsIgnoreCase("Windows")) {
                     System.setProperty("webdriver.chrome.driver", "BrowserDriver\\windows\\chromedriver.exe");
                 }

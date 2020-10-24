@@ -168,7 +168,7 @@
                 <version>3.0.0-M3</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <!--                        <suiteXmlFiles>target/test-classes/ESPNTestRunner.xml</suiteXmlFiles>-->
+                        <suiteXmlFiles>target/test-classes/ESPNTestRunner.xml</suiteXmlFiles>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
@@ -189,8 +189,8 @@
                             <buildNumber>1</buildNumber>
                             <skip>false</skip>
                             <inputDirectory>${project.build.directory}/cucumber-reports</inputDirectory>
-<!--                            <outputDirectory>${project.build.directory}</outputDirectory>-->
-<!--                            <inputDirectory>${project.build.directory}</inputDirectory>-->
+                            <outputDirectory>${project.build.directory}</outputDirectory>
+                            <inputDirectory>${project.build.directory}</inputDirectory>
                             <jsonFiles>
                                 <param>**/*.json</param>
                             </jsonFiles>
