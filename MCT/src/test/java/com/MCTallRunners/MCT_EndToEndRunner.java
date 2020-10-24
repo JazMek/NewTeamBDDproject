@@ -9,17 +9,13 @@ import org.junit.runner.RunWith;
         features = {"src/main/java/com/MCTallFeatures"},
        // features = {"src/main/java/com/MCTallFeatures/MCT_MyOrder.feature"},
         glue ={"com.MCTstepDefenitions","com.MCTHooks"},
-        //plugin = {"pretty", "json:target/cucumber-reports/cucumber.json", "html:target/cucumber-reports"},
-        //strict = true,
-        //monochrome = true,
         plugin = {"pretty", "json:target/cucumber-reports/cucumber.json", "html:target/cucumber-reports"},
         monochrome=true,
         dryRun = false
         //tags = {"@amar_Test"}
-
-// tags = " ( @Regression or @smokeTest ) and not @pending "
-// tags = {"@Regression or @smokeTest or "}
-// tags={"@Test1,@Test2"}
+       // tags = " ( @Regression or @smokeTest ) and not @pending "
+       // tags = {"@Regression or @smokeTest or "}
+       // tags={"@Test1,@Test2"}
 )
 public class MCT_EndToEndRunner {
 }

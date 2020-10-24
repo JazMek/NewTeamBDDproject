@@ -55,12 +55,13 @@
                         </goals>
                         <configuration>
                             <projectName>New Team BDD project</projectName>
-                            <outputDirectory>target/cucumber-reports/advanced-reports</outputDirectory>
-                            <buildNumber>1</buildNumber>
-                            <skip>false</skip>
-                            <inputDirectory>${project.build.directory}/cucumber-reports</inputDirectory>
-                            <outputDirectory>${project.build.directory}</outputDirectory>
-                            <inputDirectory>${project.build.directory}</inputDirectory>
+
+<!--                            <outputDirectory>target/cucumber-reports/advanced-reports</outputDirectory>-->
+<!--                            <buildNumber>1</buildNumber>-->
+<!--                            <skip>false</skip>-->
+<!--                            <inputDirectory>${project.build.directory}/cucumber-reports</inputDirectory>-->
+                                                        <outputDirectory>${project.build.directory}</outputDirectory>
+                                                        <inputDirectory>${project.build.directory}</inputDirectory>
                             <jsonFiles>
                                 <param>**/*.json</param>
                             </jsonFiles>

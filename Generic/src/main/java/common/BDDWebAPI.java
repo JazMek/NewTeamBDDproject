@@ -36,16 +36,13 @@ public class BDDWebAPI {
         public String browserstack_accesskey = "YA4xsqrMqFurrGduX1X9";
         public String saucelabs_username = "";
         public String saucelabs_accesskey = "";
-
         @Before
         public  void openBrowser() throws IOException {
             setUp(false,"browserstack","ox","catalina","chrome","85","https://www.google.com/");
-
         }
         public void setUp( boolean useCloudEnv,  String cloudEnvName,
                            String os,  String os_version,  String browserName,
                            String browserVersion,  String url) throws IOException {
-
             if (useCloudEnv == true) {
                 if (cloudEnvName.equalsIgnoreCase("browserstack")) {
                     getCloudDriver(cloudEnvName, browserstack_username, browserstack_accesskey, os, os_version, browserName, browserVersion);
@@ -60,9 +57,7 @@ public class BDDWebAPI {
             driver.get(url);
             //driver.manage().window().maximize();
         }
-
         public WebDriver getLocalDriver( String OS, String browserName) {
-
             if (browserName.equalsIgnoreCase("chrome")) {
                 if (OS.equalsIgnoreCase("OS X")) {
                     WebDriverManager.chromedriver().setup();
@@ -94,10 +89,8 @@ public class BDDWebAPI {
             }
             return driver;
         }
-
-
         public WebDriver getCloudDriver(String envName, String envUsername, String envAccessKey, String os, String os_version, String browserName,
-                                        String browserVersion) throws IOException {
+                                 String browserVersion) throws IOException {
             DesiredCapabilities cap = new DesiredCapabilities();
             cap.setCapability("browser", browserName);
             cap.setCapability("browser_version", browserVersion);
