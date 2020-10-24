@@ -1,0 +1,918 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User Land on MCT Home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 305000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User enters the URL",
+            "match": {
+              "location": "com.MCTstepDefenitions.MCT_HomePageSD.user_enters_the_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User lands on the Home page",
+            "match": {
+              "location": "com.MCTstepDefenitions.MCT_HomePageSD.user_lands_on_the_Home_page()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-24T05:16:05.068Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2844000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.MCTHooks.MCTHook.rampUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "User Land on MCT Home page",
+        "description": "",
+        "id": "mct-home;user-land-on-mct-home-page",
+        "after": [
+          {
+            "result": {
+              "duration": 87000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.MCTHooks.MCTHook.rampDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 39000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see URL",
+            "match": {
+              "location": "com.MCTstepDefenitions.MCT_HomePageSD.user_should_see_URL()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "User Land on MCT Home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 294000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User enters the URL",
+            "match": {
+              "location": "com.MCTstepDefenitions.MCT_HomePageSD.user_enters_the_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User lands on the Home page",
+            "match": {
+              "location": "com.MCTstepDefenitions.MCT_HomePageSD.user_lands_on_the_Home_page()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-24T05:16:08.431Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2359000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.MCTHooks.MCTHook.rampUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "User can navigate to all the picture in the  Home page",
+        "description": "",
+        "id": "mct-home;user-can-navigate-to-all-the-picture-in-the--home-page",
+        "after": [
+          {
+            "result": {
+              "duration": 89000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.MCTHooks.MCTHook.rampDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2033000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User click on the forward button",
+            "match": {
+              "location": "com.MCTstepDefenitions.MCT_HomePageSD.user_click_on_the_forward_button()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 44000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User should see a forward home page picture",
+            "match": {
+              "location": "com.MCTstepDefenitions.MCT_HomePageSD.user_should_see_a_forward_home_page_picture()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "User Land on MCT Home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 241000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User enters the URL",
+            "match": {
+              "location": "com.MCTstepDefenitions.MCT_HomePageSD.user_enters_the_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User lands on the Home page",
+            "match": {
+              "location": "com.MCTstepDefenitions.MCT_HomePageSD.user_lands_on_the_Home_page()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-24T05:16:13.264Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3033000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.MCTHooks.MCTHook.rampUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "User can navigate to all the picture in the  Home page",
+        "description": "",
+        "id": "mct-home;user-can-navigate-to-all-the-picture-in-the--home-page",
+        "after": [
+          {
+            "result": {
+              "duration": 93000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.MCTHooks.MCTHook.rampDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2028000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User click on the previous button",
+            "match": {
+              "location": "com.MCTstepDefenitions.MCT_HomePageSD.user_click_on_the_previous_button()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 27000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User should see a previous home page picture",
+            "match": {
+              "location": "com.MCTstepDefenitions.MCT_HomePageSD.User_should_see_a_previous_home_page_picture()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "MCT Home",
+    "description": "  as a user i can navigate to the web site and preform all activities",
+    "id": "mct-home",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/com/MCTallFeatures/MCT_HomePage.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "User Land on MCT Home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 266000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters the URL",
+            "match": {
+              "location": "com.MCTstepDefenitions.MCT_HomePageSD.user_enters_the_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User lands on the Home page",
+            "match": {
+              "location": "com.MCTstepDefenitions.MCT_HomePageSD.user_lands_on_the_Home_page()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-24T05:16:18.701Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2261000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.MCTHooks.MCTHook.rampUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "User can do a login with valid credentials",
+        "description": "",
+        "id": "mct-login-page;user-can-do-a-login-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 105000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.MCTHooks.MCTHook.rampDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5487000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User complete login with id \"user\" password \"pass\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"pass\"",
+                  "offset": 44
+                }
+              ],
+              "location": "com.MCTstepDefenitions.MCT_HomePageSD.user_complete_login_with_id_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User see  profile name as \"james williams\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"james williams\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.MCTstepDefenitions.MCT_HomePageSD.user_see_profile_name_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "MCT Login page",
+    "description": "  As a user  of MCT Website i can do a login\n  SO i can  do all loggedin activities",
+    "id": "mct-login-page",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/com/MCTallFeatures/MCT_Login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User Land on MCT Home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 246000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters the URL",
+            "match": {
+              "location": "com.MCTstepDefenitions.MCT_HomePageSD.user_enters_the_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User lands on the Home page",
+            "match": {
+              "location": "com.MCTstepDefenitions.MCT_HomePageSD.user_lands_on_the_Home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5439000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User complete login with id \"user\" password \"pass\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"pass\"",
+                  "offset": 44
+                }
+              ],
+              "location": "com.MCTstepDefenitions.MCT_HomePageSD.user_complete_login_with_id_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-24T05:16:26.857Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4351000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.MCTHooks.MCTHook.rampUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "User is on his account page",
+        "description": "",
+        "id": "my-account;user-is-on-his-account-page",
+        "after": [
+          {
+            "result": {
+              "duration": 104000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.MCTHooks.MCTHook.rampDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 456000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User go to his Account page",
+            "match": {
+              "location": "com.MCTstepDefenitions.MCT_MyAccountPageSD.user_go_to_his_Account_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 19000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User see his account  label",
+            "match": {
+              "location": "com.MCTstepDefenitions.MCT_MyAccountPageSD.user_see_my_account_label()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User Land on MCT Home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 308000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters the URL",
+            "match": {
+              "location": "com.MCTstepDefenitions.MCT_HomePageSD.user_enters_the_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User lands on the Home page",
+            "match": {
+              "location": "com.MCTstepDefenitions.MCT_HomePageSD.user_lands_on_the_Home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5301000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User complete login with id \"user\" password \"pass\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"pass\"",
+                  "offset": 44
+                }
+              ],
+              "location": "com.MCTstepDefenitions.MCT_HomePageSD.user_complete_login_with_id_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-24T05:16:37.494Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2292000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.MCTHooks.MCTHook.rampUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "User see all his account option",
+        "description": "",
+        "id": "my-account;user-see-all-his-account-option",
+        "after": [
+          {
+            "result": {
+              "duration": 94000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.MCTHooks.MCTHook.rampDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 468000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User see all his account options in below table",
+            "match": {
+              "location": "com.MCTstepDefenitions.MCT_MyAccountPageSD.user_see_all_my_account_options_in_below_table(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "My Orders"
+                ]
+              },
+              {
+                "cells": [
+                  "Profile"
+                ]
+              },
+              {
+                "cells": [
+                  "My Return Requests"
+                ]
+              },
+              {
+                "cells": [
+                  "Change Password"
+                ]
+              },
+              {
+                "cells": [
+                  "My Favorite Products"
+                ]
+              },
+              {
+                "cells": [
+                  "My Favorite Sellers"
+                ]
+              },
+              {
+                "cells": [
+                  "Seller Dashboard"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "My Account",
+    "description": "  as a logged in user i  can do all my account a activities",
+    "id": "my-account",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/com/MCTallFeatures/MCT_MyAccount.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User Land on MCT Home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 221000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters the URL",
+            "match": {
+              "location": "com.MCTstepDefenitions.MCT_HomePageSD.user_enters_the_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User lands on the Home page",
+            "match": {
+              "location": "com.MCTstepDefenitions.MCT_HomePageSD.user_lands_on_the_Home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5465000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User complete login with id \"user\" password \"pass\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"pass\"",
+                  "offset": 44
+                }
+              ],
+              "location": "com.MCTstepDefenitions.MCT_HomePageSD.user_complete_login_with_id_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 426000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I goto myaccount page",
+            "match": {
+              "location": "com.MCTstepDefenitions.MCT_MyOrderPageSD.i_goto_myaccount_page()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-24T05:16:45.967Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2441000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.MCTHooks.MCTHook.rampUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "user can see the order history",
+        "description": "",
+        "id": "my-orders;user-can-see-the-order-history",
+        "after": [
+          {
+            "result": {
+              "duration": 94000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.MCTHooks.MCTHook.rampDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 551000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I navigate to order page",
+            "match": {
+              "location": "com.MCTstepDefenitions.MCT_MyOrderPageSD.i_navigate_to_order_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 572000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I see a table with al lmy orderes",
+            "match": {
+              "location": "com.MCTstepDefenitions.MCT_MyOrderPageSD.i_see_a_table_with_al_lmy_orderes()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User Land on MCT Home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 287000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters the URL",
+            "match": {
+              "location": "com.MCTstepDefenitions.MCT_HomePageSD.user_enters_the_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User lands on the Home page",
+            "match": {
+              "location": "com.MCTstepDefenitions.MCT_HomePageSD.user_lands_on_the_Home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5329000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User complete login with id \"user\" password \"pass\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"pass\"",
+                  "offset": 44
+                }
+              ],
+              "location": "com.MCTstepDefenitions.MCT_HomePageSD.user_complete_login_with_id_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 439000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I goto myaccount page",
+            "match": {
+              "location": "com.MCTstepDefenitions.MCT_MyOrderPageSD.i_goto_myaccount_page()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-24T05:16:55.753Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2264000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.MCTHooks.MCTHook.rampUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "user see correct count of place orderes",
+        "description": "",
+        "id": "my-orders;user-see-correct-count-of-place-orderes",
+        "after": [
+          {
+            "result": {
+              "duration": 93000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.MCTHooks.MCTHook.rampDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 504000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I navigate to order page",
+            "match": {
+              "location": "com.MCTstepDefenitions.MCT_MyOrderPageSD.i_navigate_to_order_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 150000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I exepct count 10 in my order table",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 15
+                }
+              ],
+              "location": "com.MCTstepDefenitions.MCT_MyOrderPageSD.i_exepct_count_in_my_order_table(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@amar_Test"
+          }
+        ]
+      }
+    ],
+    "name": "My Orders",
+    "description": "  as a logged in user i  do all order related activities",
+    "id": "my-orders",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/com/MCTallFeatures/MCT_MyOrder.feature",
+    "tags": []
+  }
+]

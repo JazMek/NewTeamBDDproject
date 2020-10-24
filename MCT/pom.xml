@@ -38,7 +38,7 @@
                 <version>3.0.0-M3</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <!--                        <suiteXmlFiles>target/test-classes/ESPNTestRunner.xml</suiteXmlFiles>-->
+                        <suiteXmlFiles>target/test-classes/ESPNTestRunner.xml</suiteXmlFiles>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
@@ -55,6 +55,7 @@
                         </goals>
                         <configuration>
                             <projectName>New Team BDD project</projectName>
+
 <!--                            <outputDirectory>target/cucumber-reports/advanced-reports</outputDirectory>-->
 <!--                            <buildNumber>1</buildNumber>-->
 <!--                            <skip>false</skip>-->
