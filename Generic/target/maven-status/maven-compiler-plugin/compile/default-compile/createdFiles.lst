@@ -1,0 +1,7 @@
+common\BDDWebAPI.class
+reporting\ExtentManager.class
+reporting\ExtentTestManager.class
+reporting\ApplicationLog.class
+reporting\ConfigFileReader.class
+reporting\TestLogger.class
+common\WebAPI.class

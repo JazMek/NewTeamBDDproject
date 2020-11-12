@@ -1,0 +1,5 @@
+com\MCTpages\MCT_HomePage.class
+com\MCTstepDefenitions\MCT_LoginPageSD.class
+com\MCTHooks\MCTHook.class
+com\MCTpages\MCT_LoginPage.class
+com\MCTstepDefenitions\MCT_HomePageSD.class

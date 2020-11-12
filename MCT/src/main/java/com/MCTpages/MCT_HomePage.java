@@ -1,5 +1,4 @@
 package com.MCTpages;
-
 import com.MCTstepDefenitions.MCT_HomePageSD;
 import common.BDDWebAPI;
 import org.junit.Assert;
@@ -8,7 +7,6 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
-
 import java.util.concurrent.TimeUnit;
 
 public class MCT_HomePage extends BDDWebAPI {
@@ -40,29 +38,22 @@ public class MCT_HomePage extends BDDWebAPI {
     public static final String mct_HomePage_loginButton_XP = "//button[@id='jqLogin']";
     @FindBy(how = How.XPATH, using = mct_HomePage_loginButton_XP)
     public static WebElement mct_HomePage_loginButton;
-
-
     public static String URL = "https://www.demo.iscripts.com/multicart/demo/index.php";
-
     public void user_enters_the_URL_Step() {
         driver.get(URL);
     }
-
     public void user_lands_on_the_Home_page_Step() {
         driver.getCurrentUrl();
     }
-
     public void user_should_see_Step() {
         Assert.assertEquals(URL, driver.getCurrentUrl());
     }
-
     public void user_click_on_the_forward_button_Step() throws InterruptedException {
         Thread.sleep(2000);
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         //mct_HomePage_forwardButton.click();
         JavascriptExecutor js = ((JavascriptExecutor) driver);
         js.executeScript("arguments[0].click();", mct_HomePage_forwardButton);
-
     }
     protected void user_should_see_a_forward_home_page_picture_Step() {
          driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
@@ -73,17 +64,13 @@ public class MCT_HomePage extends BDDWebAPI {
         //mct_HomePage_prevButton.click();
         JavascriptExecutor js = ((JavascriptExecutor) driver);
         js.executeScript("arguments[0].click();", mct_HomePage_prevButton);
-
     }
-
     public void User_should_see_a_previous_home_page_picture_Step() {
        mct_HomePage_previousImg.isDisplayed();
     }
-
    public void user_is_on_MCT_home_page_Step() {
        mct_HomePage_loginLink.click();
     }
-
     public void user_complete_login_with_id_password_Step(String id,String password) throws InterruptedException {
         id = "user";//"jaz07";
         password = "pass";//"jaz07";
@@ -93,13 +80,10 @@ public class MCT_HomePage extends BDDWebAPI {
        mct_HomePage_loginButton.click();
        sleepFor(5);
     }
-
     public void user_see_profile_name_as_Step(String profileNameLabel) {
         profileNameLabel = "james williams";//"jaz mek";
        String profilName= driver.findElement(By.xpath("//*[@id=\"dLabel\"]/span")).getText();;
         System.out.println(profilName);
         Assert.assertEquals(profileNameLabel,profilName.toLowerCase());
-
     }
-
 }
