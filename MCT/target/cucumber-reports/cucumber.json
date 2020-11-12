@@ -1,0 +1,96 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User lands on MCT Home Page",
+            "match": {
+              "location": "com.MCTstepDefenitions.MCT_FooterHomePgSD.user_lands_on_MCT_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-12T05:10:16.942Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "com.MCTHooks.MCTHook.rampUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "verify the links at the footer are clickable",
+        "description": "",
+        "id": "footer-of-home-page;verify-the-links-at-the-footer-are-clickable",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "com.MCTHooks.MCTHook.rampDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13000000,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user scroll down to footer",
+            "match": {
+              "location": "com.MCTstepDefenitions.MCT_FooterHomePgSD.user_scroll_down_to_footer()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "click on View Cart link",
+            "match": {
+              "location": "com.MCTstepDefenitions.MCT_FooterHomePgSD.click_on_View_Cart_link()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@rachidTests"
+          }
+        ]
+      }
+    ],
+    "name": "Footer of Home Page",
+    "description": "",
+    "id": "footer-of-home-page",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/com/MCTallFeatures/MCT_FooterHomePG.feature",
+    "tags": []
+  }
+]

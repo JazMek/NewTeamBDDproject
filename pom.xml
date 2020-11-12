@@ -15,6 +15,7 @@
     <modules>
         <module>Generic</module>
         <module>MCT</module>
+        <module>rahulAcademy_project</module>
     </modules>
     <dependencyManagement>
         <dependencies>

@@ -12,10 +12,11 @@ import org.junit.runner.RunWith;
         plugin = {"pretty", "json:target/cucumber-reports/cucumber.json", "html:target/cucumber-reports"},
         strict = true,
 //        monochrome = true,
-        dryRun = false
+        dryRun = true,
 // tags = " ( @Regression or @smokeTest ) and not @pending "
 // tags = {"@Regression or @smokeTest or "}
 // tags={"@Test1,@Test2"}
+        tags={"@rachidTests"}
 )
 public class MCT_EndToEndRunner {
 }

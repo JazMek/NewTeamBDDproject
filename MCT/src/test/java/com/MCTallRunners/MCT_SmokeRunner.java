@@ -3,6 +3,8 @@ package com.MCTallRunners;
 //import io.cucumber.junit.CucumberOptions;
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
+import org.junit.runner.RunWith;
+import org.testng.TestNG;
 
 @CucumberOptions(
         features ="src/main/java/com/MCTallFeatures",
@@ -11,5 +13,5 @@ import io.cucumber.testng.CucumberOptions;
         strict = true
 //        tags = "@AdvancedSearchSearchIncluding"
 )
-public class MCT_SmokeRunner extends AbstractTestNGCucumberTests{
+public class MCT_SmokeRunner {
 }

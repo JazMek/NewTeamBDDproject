@@ -68,7 +68,9 @@ public class BDDWebAPI {
                     WebDriverManager.chromedriver().setup();
 //                    System.setProperty("webdriver.chrome.driver", "../Generic/BrowserDriver/mac/chromedriver");
                 } else if (OS.equalsIgnoreCase("Windows")) {
-                    System.setProperty("webdriver.chrome.driver", "BrowserDriver\\windows\\chromedriver.exe");
+//                    System.setProperty("webdriver.chrome.driver", "BrowserDriver\\windows\\chromedriver.exe");
+                  WebDriverManager.chromedriver().setup();
+
                 }
                 driver = new ChromeDriver();
             } else if (browserName.equalsIgnoreCase("chrome-options")) {
